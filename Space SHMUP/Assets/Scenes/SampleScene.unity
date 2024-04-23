@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 70665935}
   - component: {fileID: 70665934}
   - component: {fileID: 70665933}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -461,9 +461,9 @@ GameObject:
   - component: {fileID: 1045216101}
   - component: {fileID: 1045216100}
   - component: {fileID: 1045216103}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: _Hero
-  m_TagString: Untagged
+  m_TagString: Hero
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -510,7 +510,7 @@ MonoBehaviour:
   speed: 30
   rollMult: -45
   pitchMult: 30
-  shieldLevel: 1
+  _shieldLevel: 4
 --- !u!4 &1045216102
 Transform:
   m_ObjectHideFlags: 0
@@ -559,7 +559,7 @@ GameObject:
   - component: {fileID: 1138002998}
   - component: {fileID: 1138002997}
   - component: {fileID: 1138003001}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Shield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -581,7 +581,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -678,7 +678,7 @@ GameObject:
   - component: {fileID: 1320912536}
   - component: {fileID: 1320912535}
   - component: {fileID: 1320912534}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -780,7 +780,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1883872654}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CockPit
   m_TagString: Untagged
   m_Icon: {fileID: 0}

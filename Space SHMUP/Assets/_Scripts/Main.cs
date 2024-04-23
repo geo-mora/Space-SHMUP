@@ -24,6 +24,7 @@ public void SpawnEnemy() {
 	// Pick a random Enemy prefab to instantiate
 	int ndx = Random.Range(0, prefabEnemies.Length); // b
 	GameObject go = Instantiate<GameObject>( prefabEnemies[ ndx ] ); // c
+
 	// Position the Enemy above the screen with a random x position
 	float enemyPadding = enemyDefaultPadding; // d
 	if (go.GetComponent<BoundsCheck>() != null) { // e
@@ -39,5 +40,13 @@ public void SpawnEnemy() {
 	go.transform.position = pos;
 	// Invoke SpawnEnemy() again
 	Invoke( "SpawnEnemy", 1f/enemySpawnPerSecond ); // g
+	}
+
+	public void DelayedRestart (float delay) {
+		Invoke("Restart", delay);
+	}
+
+	public void Restart() {
+		SceneManager.LoadScene("_Scene_0");
 	}
 }

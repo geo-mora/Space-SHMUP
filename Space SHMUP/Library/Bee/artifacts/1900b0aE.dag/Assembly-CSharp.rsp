@@ -357,6 +357,7 @@
 "Assets/_Scripts/Enemy.cs"
 "Assets/_Scripts/Hero.cs"
 "Assets/_Scripts/Main.cs"
+"Assets/_Scripts/Projectile.cs"
 "Assets/_Scripts/Shield.cs"
 -langversion:9.0
 
