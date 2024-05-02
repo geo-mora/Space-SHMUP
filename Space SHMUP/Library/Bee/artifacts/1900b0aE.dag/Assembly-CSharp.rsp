@@ -363,6 +363,7 @@
 "Assets/_Scripts/Main.cs"
 "Assets/_Scripts/Projectile.cs"
 "Assets/_Scripts/Shield.cs"
+"Assets/_Scripts/Weapon.cs"
 -langversion:9.0
 
 /deterministic
